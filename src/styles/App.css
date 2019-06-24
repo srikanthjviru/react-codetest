@@ -1,9 +1,20 @@
+.App {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
 .App-body {
   display: flex;
+  flex: 1;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .App-left {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   text-align: center;
   background-color: orange;

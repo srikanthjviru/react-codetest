@@ -1,3 +1,5 @@
 .ImageList {
   text-align: center;
+  flex: 1;
+  overflow-y: auto;
 }

@@ -3,10 +3,10 @@ import Image from "./Image";
 import "../styles/ImageList.css";
 
 // TODO: Provide access to images and on click handler
-const ImageList = ({ images }) => (
+const ImageList = ({ images, onSelect }) => (
   <div className="ImageList">
     {images.map((image, index) => (
-      <Image key={index} image={image} />
+      <Image key={index} image={image} onClick={() => onSelect(image)} />
     ))}
   </div>
 );
